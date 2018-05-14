@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+}
+.global{
+  border: 3px solid gray;
+  height: 100%;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 300px;
+  background-color: #dcdde1;
+}
+.Paris{
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f5f6fa;
+}
+.name{
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.img{
+  padding-left: 50px;
+}
+.température{
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 25px;
+  background-color: #f5f6fa;
+}
+.vent{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.deg{
+  padding-left: 100px;
+}
+.aire{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+.aire1{
+  display: flex;
+  flex-direction: column;
+}
+.aire2{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 80px;
+}
+.a1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.a2{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.a3{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.soleil{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  background: url(http://www.sympatico.ca/image/policy:1.1666646:1456338819/Ciel-bleu.jpg?c=1%2C77%2C725%2C406&$p$c=3134e67&w=800&$w=23745c3);
+  background-position: center;
+  background-size: cover;
+}
+.s1{
+  display: flex;
+  flex-direction: column;
+}
+.s2{
+  display: flex;
+  flex-direction: column;
+}
+.s3{
+  display: flex;
+  flex-direction: column;
+}
+.s4{
+  display: flex;
+  flex-direction: column;
+}
+.s1, .s2, .s3, .s4, h2, h3{
+  padding-top: 10px;
+  text-align: center;
+}
