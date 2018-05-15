@@ -1,19 +1,23 @@
 *{
   margin: 0;
 }
+body{
+  font-family: 'Arimo', sans-serif;
+}
 .global{
-  border: 3px solid gray;
+  border: 3px solid #ecf0f1;
   height: 100%;
   width: 400px;
   margin-top: 100px;
   margin-left: 300px;
-  background-color: #dcdde1;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 .Paris{
   padding-top: 20px;
   display: flex;
   justify-content: flex-start;
-  background-color: #f5f6fa;
+  background-color: #ffffff;
 }
 .name{
   padding-top: 10px;
@@ -26,7 +30,7 @@
   display: flex;
   justify-content: flex-start;
   padding-bottom: 25px;
-  background-color: #f5f6fa;
+  background-color: #ffffff;
 }
 .vent{
   display: flex;
@@ -72,9 +76,10 @@
   justify-content: space-around;
   padding-top: 50px;
   padding-bottom: 45px;
-  background: url(http://www.sympatico.ca/image/policy:1.1666646:1456338819/Ciel-bleu.jpg?c=1%2C77%2C725%2C406&$p$c=3134e67&w=800&$w=23745c3);
+  background: linear-gradient(-90deg,#0abde3,#54a0ff);
   background-position: center;
   background-size: cover;
+  border-radius: 0px 0px 10px 10px;
 }
 .s1{
   display: flex;
